@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    border-bottom-style: inset;
+}
+
+img {
+    float: left; /* Faz a imagem flutuar para a esquerda.
+    Isso permite que textos ou outros elementos fiquem ao lado direito da imagem.*/
+    
+    width: 300px; /*Largura da imagem*/
+    height: 300px;/* Altura da imagem*/
+}
