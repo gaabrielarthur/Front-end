@@ -6,7 +6,7 @@ frm.addEventListener("submit", (e) => {
 
     const numero = Number(frm.inNumero.value); // acessa 
     const raiz = Math.sqrt(numero); // faz o calculo da raiz quadrada
-    if (Number.isInteger) {  //Number.isInteger serve para verificar se um numero é inteiro
+    if (Number.isInteger(raiz)) {  //Number.isInteger serve para verificar se um numero é inteiro
         resp.innerText = `Raiz: ${raiz}`; // se numero for inteiro imprimi a resposta 
     } else { // se não
         resp.innerText = `Esse numero não á raiz exata para esse numero ${numero}`;
