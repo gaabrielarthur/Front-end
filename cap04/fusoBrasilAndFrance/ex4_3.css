@@ -1,0 +1,11 @@
+ h1 {
+        border-bottom-style: inset;
+    }
+
+    img {
+        float: left;
+        height: 300px;
+        /* ALTURA */
+        width: 300px;
+        /* LARGURA */
+    }

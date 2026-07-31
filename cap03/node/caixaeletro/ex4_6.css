@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    border-bottom-style: inset ;
+}
+
+img {
+    float: left;
+    height: 300px;
+    width: 280px;
+}
+form,h3{
+   padding-left: 35%;
+   
+}
+
