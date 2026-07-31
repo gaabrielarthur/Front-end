@@ -7,14 +7,32 @@
 </head>
 <body>
     <h1>Programa Parquímetro</h1>
+    <p>
+        <strong>TABELA DE PREÇOS</strong>
+        <ul>
+            <li>
+              R$1,00 EQUIVALE A 30 MINUTOS  
+            </li>
+            <br>
+            <li>
+              R$1,75 EQUIVALE A 60 MINUTOS  
+            </li>
+            <br>
+            <li>
+              R$3,00 EQUIVALE A 120 MINUTOS  
+            </li>
+        </ul>
+    </p>
     <form>
         <p>Valor R$:
-            <input type="number" id="valor" min="0" max="100" required>
+            <input type="number" id="valor" step="0.01" min="0" max="100" required>
         </p>
+        <input type="reset" value="limpar campo">
         <input type="submit" value="Confirmar Deposito">
     </form>
     <h2></h2>
     <h3></h3>
+
     <script src="ex4_9.js"></script>
 </body>
 </html>
