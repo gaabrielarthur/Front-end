@@ -1,0 +1,11 @@
+<Meta chasert="UFT-8">
+<script>
+    /*
+    Elaboarar um programa para um loja, o qual leia o preço de um produto e informe as opções de opagamento da loja.
+    Calcule e informe o valor para pagamento à avista com 10% de desconto e valor em 3x.
+    */
+    const produto = Number(prompt("Qual o valor do produto: ")); // lendo o valor digitado convertendo para numero atras do "Number" EM SEGUIDA ARMAZENANDO NA VARIAVEL 
+    const desconto = (produto * 0.10) - produto; //FAZ O PRIMEIRO CALCULO ENTRE PARENTESES EM SEGUIDA FAZ P CALCULO COM O VALOR ARMAZENADO NA VARIAVEL PRODUTO
+    const dividido = produto / 3; // DIVIDI O VALOR ARMAZENADO NA PRIMEIRA VARIAVEL E DIVIDI EM 3 VEZES 
+    alert(`Preço: R$ ${produto}\nAvista: R$${desconto}\nOu 3x: R$${dividido}\n`)// MOSTRA O RESULTADO E O VALOR ARMAZENADO EM CADA VARIAVEL 
+</script>
