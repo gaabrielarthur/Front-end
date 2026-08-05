@@ -1,20 +1,42 @@
+/* Define a fonte padrão de toda a página */
 body {
+    /* Primeiro tenta usar Arial.
+       Se não existir, usa Helvetica.
+       Se também não existir, usa qualquer fonte sem serifa disponível. */
     font-family: Arial, Helvetica, sans-serif;
-   
 }
 
+/* Estiliza o título principal da página */
 h1 {
+    /* Centraliza o texto */
     text-align: center;
-    border-bottom-style:inset;
+
+    /* Adiciona uma borda inferior com efeito de relevo (inset) */
+    border-bottom-style: inset;
 }
 
+/* Estiliza a imagem */
 img {
-   
-    float: left ;
+
+    /* Faz a imagem ficar alinhada à esquerda,
+       permitindo que outros elementos fiquem ao lado dela */
+    float: left;
+
+    /* Define a altura da imagem */
     height: 300px;
+
+    /* Define a largura da imagem */
     width: 250px;
 }
-#tabu,input{
-    margin-left: 10px ;
+
+/* Aplica o estilo ao campo com id="tabu"
+   e a todos os elementos <input> da página */
+#tabu,
+input {
+
+    /* Adiciona uma margem de 10px à esquerda */
+    margin-left: 10px;
+
+    /* Define a largura dos campos e botões */
     width: 150px;
 }
