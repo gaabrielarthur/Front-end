@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pares</title>
+</head>
+
+<body>
+    <script>
+        alert("Digite 0 para sair:"); // informa no inicio que se quiser sair para digitar zero
+        do {
+            const num = Number(prompt("Digite um numero:"))
+            if (num == 0 || isNaN(num)) {// quero dizer se numero for igual a zero ou numero invalido
+                const sair = confirm("confirmar sair: "); // imprimi na caixa do navegador para confirma a saida
+                if (sair) {
+                    break;// sai da repetição
+                }
+                else {
+                    continue;  // continua 
+                }
+            }
+
+            if (num % 2 == 0) { // testa se o o resto da divisão desse numero sobra 0 se sim 
+                alert(`O dobro de ${num} é ${num * 2}`); // mostra o numero par, multiplicado por 2
+            } else { //se não 
+                alert(`O triplo de ${num} é ${num * 3}`); // // mostra o numero par, multiplicado por 2
+            }
+            alert(`bye bye`);
+
+
+        } while (true); // enquanto for verdadeiro vai imprimir na barra de navegador 
+    </script>
+</body>
+
+</html>
