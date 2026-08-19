@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.contasdomes.com</title>
+    <link rel="stylesheet" href="ex5_5.css">
+</head>
+
+<body>
+    <h1>Programa Contas Do Mês</h1>
+    <form>
+        <p>Descrição das contas:
+            <input type="text" id="inDescricao" name="inDescricao" min="1" max="1000" required>
+        </p>
+        <p>Valor a pagar:
+            <input type="number" id="inValor" name="inValor" step="0.01" min="1" max="1000" required>
+        </p>
+
+        <input type="submit" value="Registrar conta">
+    </form>
+
+</body>
+<pre id="outResp1"></pre>
+<pre id="outResp2"></pre>
+
+<script src="ex5_5.js"></script>
+
+</html>
