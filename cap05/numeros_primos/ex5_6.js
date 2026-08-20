@@ -19,3 +19,6 @@ frm.addEventListener("submit", (e) => {
          resp.innerText = `${num} não é primo`;
     }
 });
+
+// dessa forma é mais lenta pois o usuário vai digitar e o programa vai testar um por um 
+// se o usuário digitar um numero com 3 casas decimais o for iria percorrer todos, ou seja funciona porè  
