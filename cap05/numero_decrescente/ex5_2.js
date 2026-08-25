@@ -13,5 +13,5 @@ frm.addEventListener("submit", (e) => {
             resposta = `${resposta}${i},` // resposta = resposta + i + ","
         }
     }
-    resp.innerText = resposta
+    resp.inner = resposta
 })
