@@ -7,7 +7,7 @@ console.log("\n------------------------------------------------------------");
 do {
     // Solicita o ano ao usuário e converte o valor para número
     const ano = Number(prompt("ano: "));
-    // Se o usuário digitar 0, encerra o programa
+    // Se o usuário digitar 0, encerra o programa !
     if (ano == 0) {
         break;
 
