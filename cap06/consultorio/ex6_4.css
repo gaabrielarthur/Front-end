@@ -1,0 +1,46 @@
+```css
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    /* Faz a imagem flutuar para a esquerda */
+    float: left;
+
+    width: 300px;
+    height: 350px;
+}
+
+h1 {
+    text-align:left;
+    border-bottom-style: inset;
+}
+
+form {
+    /* Organiza os elementos um abaixo do outro */
+    display: flex;
+
+    flex-direction: column;
+
+    /* Espaço entre os elementos */
+    gap: 5px;
+
+    /* Largura do formulário */
+    width: 200px;
+
+    /* Centraliza o formulário */
+    margin:left;
+}
+
+label {
+    display: block;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.fonte-azul {
+    color: blue;
+}
